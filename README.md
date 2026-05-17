@@ -1,4 +1,4 @@
-# 🇪🇺✍️ EU Citizens Initiatives Tracker
+# 🇪🇺✍️ EU Citizens Initiatives Notebook
 
 <div align="center">
   <img src="./ECI_initiatives/exploratory_data_analysis/initiatives_campaigns/images/eci_take_initiative_banner.png" alt="ECI Material" width="600">
@@ -53,7 +53,7 @@ The project relies on a few key technologies:
 Clone the repository and set up the environment:
 
 ```bash
-git clone https://github.com/Luk-kar/eu-citizens-initiatives-tracker
+git clone https://github.com/Luk-kar/european_citizens_initiatives_notebook
 cd eci-tracker
 ```
 
@@ -191,8 +191,7 @@ python run_tests.py --extractor
 python run_tests.py --merger
 ```
 ## Maintenance & Future Development
-
-This project is designed for local execution with low computational overhead, utilizing regex-based extraction and manual pre-computation for stability. However, as the dataset grows, several architectural improvements—such as NLP-based classification, database integration (PostgreSQL), and a public-facing Dash dashboard would be nice.
+Because this project relies on complex web scraping, the data extraction logic can break when the source websites change, making long-term maintenance resource-intensive. Currently, the project is designed for local execution with low computational overhead, utilizing regex-based extraction and manual pre-computation for stability.
 
 For a detailed breakdown, please see the [Developer Documentation](doc/README.dev.md).
 
